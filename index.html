@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website Using HTML & CSS | Codehal</title>
+    <title>COMPAORE Walker - Portfolio AI & Data Science</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <nav class="navbar">
         <a href="#" class="logo">Portfolio.</a>
         <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Projects and Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#projects">Projects and Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
     <div class="bars-animation">
         <div class="bar" style="--i:6;"></div>
         <div class="bar" style="--i:5;"></div>
@@ -30,38 +27,309 @@
         <div class="bar" style="--i:2;"></div>
         <div class="bar" style="--i:1;"></div>
     </div>
-
-    <section class="home">
+    
+    <!-- Section Home -->
+    <section class="home" id="home">
         <div class="home-info">
             <h1>COMPAORE Walker Stanislas Rocksane</h1>
             <h2>
-                <span>
-                    AI
-                </span> and 
-                <span>
-                    Data Science
-                </span>
-                <span>
-                    Student
-                </span> at Ecole Polytechnique de Ouagadougou</h2>
-            <p>I'm a junior data scientist, passionate about Natural Langage Processing (NLP) and looking for any opportunities about NLP, Deep Learning.</p>
+                <span>AI</span> and
+                <span>Data Science</span>
+                <span>Student</span> at Ecole Polytechnique de Ouagadougou
+            </h2>
+            <p>I'm a junior data scientist, passionate about Natural Language Processing (NLP) and looking for any opportunities about NLP, Deep Learning.</p>
             <div class="btn-sci">
-                <a href="#" class="btn">Download CV</a>
+                <a href="docs/CV_Walker Stanislas Rocksane_COMPAORE.pdf" target="_blank" download class="btn">Download CV</a>
                 <div class="sci">
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/WalkerStanislas/"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/walkerstanislasrocksanecompaore/"><i class='bx bxl-linkedin'></i></a>
                 </div>
             </div>
         </div>
         <div class="home-img">
             <div class="img-box">
                 <div class="img-item">
-                    <img src="home.png" alt="">
+                    <img src="home.png" alt="Profile Image">
                 </div>
             </div>
         </div>
     </section>
 
-</body>
+    <!-- Section About -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Junior Data Scientist & AI Enthusiast</h3>
+                <p>I'm an AI and Data Science enthusiast with solid experience in machine learning, data analysis, and NLP. I enjoy building intelligent systems that extract insights from real-world data, especially through clustering, prediction, and sentiment analysis.</p>
+                <p>Alongside my data skills, I’m also a capable full-stack developer. From web apps to automation scripts, I create smart, user-focused solutions that combine clean design with strong technical foundations.</p>
+            </div>
+            
+            <div class="skills">
+                <h3>Technical Skills</h3>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <h4>Python</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>JAVA</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 89%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Scala</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>R</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>SQL</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>HTML-CSS-JavaScript-PHP</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Machine Learning</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>NLP</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Deep Learning</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Data Peocessing</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 86%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Data Visualization</h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 89%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Formation</h3>
+                <div class="edu-box">
+                    <div class="edu-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> September 2022 - Current</div>
+                            <h3>Master’s level engineering program in Artificial Intelligence and Data Science</h3>
+                            <p>École Polytechnique de Ouagadougou</p>
+                        </div>
+                    </div>
+                    
+                    <div class="edu-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> September 2020 - July 2022</div>
+                            <h3>Preparatory program for admission to French Grandes Écoles in Physics, Chemistry and engineering sciences.</h3>
+                            <p>École Polytechnique de Ouagadougou</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Section Certifications -->
+    <section class="certifications" id="portfolio">
+        <h2 class="heading">Mes <span>Certifications</span></h2>
+        
+        <div class="certifications-container">
+            <div class="certification-box">
+                <img src="assets/cert1.jpg" alt="Certification">
+                <div class="certification-layer">
+                    <h4>Web Scraping</h4>
+                    <p>DataCamp</p>
+                    <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/4e337827e5db31f93f38fa7ca97bdf83219cc9bc"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="certification-box">
+                <img src="assets/cert2.jpg" alt="Certification">
+                <div class="certification-layer">
+                    <h4>Natural Langage Processing</h4>
+                    <p>365 Data Science</p>
+                    <a href="https://learn.365datascience.com/certificates/CC-BCBDD387DA/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="certification-box">
+                <img src="assets/cert3.jpg" alt="Certification">
+                <div class="certification-layer">
+                    <h4>LLM with LangChain</h4>
+                    <p>DataCamp</p>
+                    <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/5f064b71fb33765f91d8e482a658b5b213183925"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projects -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Mes <span>Projets</span></h2>
+        
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="assets/project1.jpg" alt="Project">
+                <div class="project-info">
+                    <h3>Analysis of News Trends</h3>
+                    <p>This project focuses on news trend analysis using NLP technics on data scraped from online media.</p>
+                    <div class="project-tech">
+                        <span>Spacy</span>
+                        <span>NLTK</span>
+                        <span>VADER</span>
+                        <span>TF-IDF</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/WalkerStanislas/Analysis-of-new-trends-in-BF"><i class='bx bxl-github'></i></a>
+                        <a href="https://analysis-of-new-trends-in-bf-foxjnxwtqkbxhpqypwgwwv.streamlit.app/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-box">
+                <img src="assets/project2.jpg" alt="Project">
+                <div class="project-info">
+                    <h3>French2English Traductor</h3>
+                    <p>This project focuses on building a French-to-English translation system using the OpenNMT framework on European Parliament data</p>
+                    <div class="project-tech">
+                        <span>Scikit-learn</span>
+                        <span>Spacy</span>
+                        <span>PyTorch</span>
+                        <span>OpenNMT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/WalkerStanislas/French2English-traductor-app"><i class='bx bxl-github'></i></a>
+                        <a href="https://french2english-traductor-app-as92yyimumfqcwg98mw5d6.streamlit.app/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-box">
+                <img src="project3.jpg" alt="Project">
+                <div class="project-info">
+                    <h3>Détection d'Anomalies</h3>
+                    <p>Système de détection d'anomalies dans les séries temporelles financières utilisant des techniques de deep learning.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Keras</span>
+                        <span>Time Series</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="services">
+            <h2 class="heading">Mes <span>Services</span></h2>
+            
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Développement de Modèles ML/DL</h3>
+                    <p>Création de modèles de machine learning et deep learning sur mesure pour répondre à vos besoins spécifiques.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+                
+                <div class="services-box">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Analyse de Données</h3>
+                    <p>Extraction d'insights précieux à partir de vos données pour faciliter la prise de décision.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+                
+                <div class="services-box">
+                    <i class='bx bx-chat'></i>
+                    <h3>NLP Solutions</h3>
+                    <p>Développement de solutions NLP personnalisées pour l'analyse textuelle et la compréhension du langage.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contactez <span>Moi</span></h2>
+        
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nom Complet">
+                <input type="email" placeholder="Adresse Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Numéro de Téléphone">
+                <input type="text" placeholder="Sujet du Message">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Votre Message"></textarea>
+            <input type="submit" value="Envoyer Message" class="btn">
+        </form>
+        
+        <div class="contact-info">
+            <div class="contact-card">
+                <i class='bx bx-envelope'></i>
+                <h3>Email</h3>
+                <p>walker.compaore@email.com</p>
+            </div>
+            <div class="contact-card">
+                <i class='bx bx-phone'></i>
+                <h3>Téléphone</h3>
+                <p>+226 XX XX XX XX</p>
+            </div>
+            <div class="contact-card">
+                <i class='bx bx-map'></i>
+                <h3>Localisation</h3>
+                <p>Ouagadougou, Burkina Faso</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 COMPAORE Walker | Tous droits réservés</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
